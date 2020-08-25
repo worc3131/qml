@@ -146,7 +146,7 @@ else
     fi
 fi
 case $KXVER in
-    2|3) ;;
+    2|3|4) ;;
     *) echo "unknown q version." >&2; exit 1 ;;
 esac
 

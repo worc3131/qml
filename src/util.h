@@ -6,7 +6,7 @@
 
 #include <k.h>
 
-#if KXVER == 3
+#if (KXVER==3) || (KXVER == 4)
 #define _l  j
 #define  L  J
 #define KL KJ
